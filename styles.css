@@ -1,0 +1,81 @@
+:root {
+  --spring-green: #84A59D;   /* muted mint/green */
+  --spring-pink: #F5CAC3;    /* soft blush pink */
+  --spring-yellow: #fff5ba;  /* pale yellow */
+  --white: #ffffff;
+  --text-dark: #333333;
+  --link-hover: #ff8fa3;     /* rosy pink */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--spring-green);
+  color: var(--white);
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: var(--spring-green);
+  border-bottom: 2px solid var(--spring-pink);
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--spring-green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+footer {
+  background-color: var(--spring-yellow);
+  color: var(--text-dark);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-info li {
+  margin-bottom: 0.25rem;
+}
